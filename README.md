@@ -15,3 +15,5 @@ pip install pandas openpyxl requests
 6. All the responses in txt format for each row of the excel will be saved in the subfolder named after the excel
 
 7. Processing Multiple Excel Files: If you have multiple Excel files, ensure that each one has a corresponding text file with prompts in the same directory. The script will automatically process them one after the other until all paired Excel files are processed.![86f26e17d2b282f993bb9efeec39183](https://github.com/jzou19957/Unlimited-Excel-Processing-through-GPT-3.5-API/assets/153259165/7f349fb7-b140-4917-8fe0-5835c184ae16)
+
+8. In cases of interruption (internet interruption or othe reasons), you do not need to worry about shutting the program down. Every time the code is run again, it will resume from where it was last time until all the excels with txt prompts are finished. 
