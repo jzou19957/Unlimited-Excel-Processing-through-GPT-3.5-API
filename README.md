@@ -2,7 +2,7 @@
 Follow these simple steps to use the application:
 
 1. Install Python Requirements: Ensure all the required Python packages are installed by running the following command:
-pip install pandas openpyxl requests
+pip install pandas openpyxl requests g4f
 
 2. Prepare Your Files: Place your Excel file and a corresponding text file in the same directory as gpt35.py and gpt35.bat. Make sure both files (Excel and text) have the same name but different extensions (e.g., data.xlsx and data.txt).![d7c275aa4d44d3dc689362d16110604](https://github.com/jzou19957/Unlimited-Excel-Processing-through-GPT-3.5-API/assets/153259165/701378e7-9212-40e3-95e2-d5e51109a93b) .Ensure that in your excel data the first column should be named "Text".
 
